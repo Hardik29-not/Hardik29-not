@@ -15,8 +15,8 @@ on:
 
 # Both jobs are required for the README to stay current: `cards` redraws the
 # stats and contribution graph, `snake` redraws the contribution animation.
-# Neither needs a PAT - the built-in GITHUB_TOKEN is sufficient, because the
-# account exposes private contributions on its profile.
+# The built-in GITHUB_TOKEN is enough for the contribution numbers and the
+# snake. The language bar needs the optional STATS_TOKEN secret (see `cards`).
 jobs:
   cards:
     runs-on: ubuntu-latest
@@ -28,8 +28,12 @@ jobs:
         # Regenerate *after* syncing to origin, and retry, so a concurrent push
         # to main cannot make this job fail or clobber someone else's commit.
         # Output is a pure function of the API, so regenerating post-sync is safe.
+        # The built-in token can only see this repo, so it cannot read the
+        # languages of the owner's other repos. If a STATS_TOKEN secret (a
+        # personal access token) exists it is used for the API queries;
+        # otherwise the built-in token is used and the language bar is empty.
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

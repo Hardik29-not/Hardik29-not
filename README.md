@@ -23,7 +23,3 @@
     <img width="84%" src="https://raw.githubusercontent.com/Hardik29-not/Hardik29-not/output/github-snake.svg" alt="Contribution snake animation" />
   </picture>
 </p>
-
-<p align="center">
-  <sub>Profile design by <a href="https://github.com/UllekhPatel">@UllekhPatel</a></sub>
-</p>

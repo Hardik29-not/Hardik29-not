@@ -31,6 +31,7 @@ LANG_COLORS = {
     "TypeScript": "#3178c6", "Python": "#3572A5", "JavaScript": "#f1e05a",
     "Jupyter Notebook": "#DA5B0B", "Go": "#00ADD8", "HTML": "#e34c26",
     "C": "#555555", "Shell": "#89e051",
+    "Java": "#b07219", "C++": "#f34b7d", "Other": "#8b949e",
 }
 
 

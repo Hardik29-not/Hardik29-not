@@ -5,15 +5,15 @@
 </p>
 
 <p align="center">
-  <img width="84%" src="https://raw.githubusercontent.com/Hardik29-not/Hardik29-not/main/assets/stats.svg?v=b3b2e5e1" alt="Total contributions and top languages" />
+  <img width="84%" src="https://raw.githubusercontent.com/Hardik29-not/Hardik29-not/main/assets/stats.svg?v=c707a03c" alt="Total contributions and top languages" />
 </p>
 
 <p align="center">
-  <img width="84%" src="https://raw.githubusercontent.com/Hardik29-not/Hardik29-not/main/assets/streak.svg?v=4f2f77df" alt="Contribution streak" />
+  <img width="84%" src="https://raw.githubusercontent.com/Hardik29-not/Hardik29-not/main/assets/streak.svg?v=59c2a4ad" alt="Contribution streak" />
 </p>
 
 <p align="center">
-  <img width="84%" src="https://raw.githubusercontent.com/Hardik29-not/Hardik29-not/main/assets/graph.svg?v=937591d2" alt="Weekly contributions over the last 12 months" />
+  <img width="84%" src="https://raw.githubusercontent.com/Hardik29-not/Hardik29-not/main/assets/graph.svg?v=7c15fd6e" alt="Weekly contributions over the last 12 months" />
 </p>
 
 <p align="center">

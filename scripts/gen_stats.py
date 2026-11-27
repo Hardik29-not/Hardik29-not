@@ -27,7 +27,7 @@ TEXT = "#c9d1d9"
 MUTED = "#8b949e"
 CARD_H = 250  # both cards share a height so they align side by side
 
-LANG_COLORS = {
+LANG_COLORS = {  # language colours
     "TypeScript": "#3178c6", "Python": "#3572A5", "JavaScript": "#f1e05a",
     "Jupyter Notebook": "#DA5B0B", "Go": "#00ADD8", "HTML": "#e34c26",
     "C": "#555555", "Shell": "#89e051",

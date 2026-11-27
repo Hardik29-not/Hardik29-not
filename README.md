@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img width="84%" src="https://raw.githubusercontent.com/Hardik29-not/Hardik29-not/main/assets/stats.svg?v=c707a03c" alt="Total contributions and top languages" />
+  <img width="84%" src="https://raw.githubusercontent.com/Hardik29-not/Hardik29-not/main/assets/stats.svg?v=0bf4a46f" alt="Total contributions and top languages" />
 </p>
 
 <p align="center">
